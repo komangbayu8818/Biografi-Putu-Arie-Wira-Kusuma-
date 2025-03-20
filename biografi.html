@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadek Arie Wira Kusuma - Biografi</title>
+    <link href="/src/output.css" rel="stylesheet">
+    <!-- Google Fonts - Bebas Neue -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Apply Bebas Neue to all elements */
+        * {
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 0.5px;
+        }
+        
+        .dotted-line {
+        border-top: 3px dashed #333;
+        position: relative;
+        }
+        
+        .curved-line {
+        border: none;
+        height: 100px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cpath d='M0,50 Q100,0 200,50 T400,50' stroke='black' stroke-width='3' stroke-dasharray='5,5' fill='none'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: contain;
+        }
+
+        body {
+            overflow: hidden; /* This removes the scrollbar */
+        }
+
+        /* Allow scrolling while hiding the scrollbar */
+        .scrollable {
+            overflow-y: scroll; /* Allow vertical scrolling */
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        /* Hide scrollbar for Webkit browsers (Safari, Chrome) */
+        .scrollable::-webkit-scrollbar {
+            display: none; /* Hide scrollbar */
+        }
+    </style>
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            fontFamily: {
+                'bebas': ['"Bebas Neue"', 'sans-serif'],
+            },
+            fontSize: {
+                '8xl': '6rem',
+                '9xl': '8rem',
+            }
+            }
+        }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gray-200 flex flex-col items-center justify-center p-4 font-bebas scrollable" >
+    
+    <!-- Main content container - ENLARGED -->
+    <div class="w-full max-w-6xl bg-gray-100 rounded-3xl p-10 md:p-16 pt-6 md:pt-6 shadow-md relative min-h-[80vh]">
+    <!-- Header with centered navbar -->
+    <div class="flex justify-center mb-24">
+        <!-- Rounded navbar container -->
+        <div class="bg-white px-8 py-3 rounded-full shadow-sm flex items-center gap-2">
+        <!-- Sun icon to the left of the name -->
+        <img src="/images/sun-icon.webp" alt="Sun icon" class="w-6 h-6">
+        
+        <!-- Name in navbar -->
+        <div class="font-medium text-black opacity-60 mr-10 text-2xl md:text-2xl font-bebas hover:opacity-100 transition-opacity duration-300"><a href="https://www.instagram.com/ariewira_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">KADEK ARIE WIRA KUSUMA</a></div>
+        
+        <!-- Navigation links -->
+        <nav class="flex gap-8 text-xl md:text-2xl font-bebas">
+            <!-- <a href="#" class="font-bold text-black">BERANDA</a> -->
+            <a href="home.html" class="text-black opacity-60 hover:opacity-100 transition-opacity duration-300">BERANDA</a>
+            <a href="biodata.html" class="text-black opacity-60 hover:opacity-100 transition-opacity duration-300">BIODATA</a>
+            <a href="biografi.html" class="text-black opacity-60 hover:opacity-100 transition-opacity duration-300">BIOGRAFI</a>
+            <a href="tentang-kami.html" class="text-black opacity-60 hover:opacity-100 transition-opacity duration-300">TENTANG KAMI</a>
+        </nav>
+        </div>
+        </div>
+        
+        <!-- Main content -->
+        <div class="flex flex-col px-4 md:px-10">
+        <!-- BIOGRAFI heading - moved to the left with margin -->
+        <h2 class="text-amber-400 text-6xl md:text-7xl font-bold mb-10 font-bebas text-center ml-10 md:ml-20">BIOGRAFI</h2>
+        
+        <!-- Biography content -->
+        <div class="flex flex-col gap-8">
+            <!-- First section with photo and intro text -->
+            <div class="flex flex-col md:flex-row gap-8">
+            <!-- Profile photo with curved top border -->
+            <div class="md:w-1/3">
+                <div class="border-t-4 border-amber-600 rounded-t-full pt-2">
+                <div class="bg-white p-2 shadow-md mt-3">
+                    <img src="/images/Foto Pak Ari.png" alt="Profile Photo" class="w-full">
+                </div>
+                </div>
+            </div>
+            
+            <!-- Intro text -->
+            <div class="md:w-2/3">
+                <p class="text-xl leading-tight mb-4">
+                KADEK ARIE WIRA KUSUMA, S.KOM, LAHIR DI DENPASAR PADA 31 MARET 1999. BELIAU MENEMPUH PENDIDIKAN DI BEBERAPA LEMBAGA, DIMULAI DARI TK DHARMA KUMARA, SDN 10 PEDUNGAN, SMPN 6 DENPASAR, HINGGA SMK TI BALI GLOBAL DENPASAR, TEMPAT BELIAU MENYELESAIKAN PENDIDIKAN MENENGAHNYA. SETELAH ITU, BELIAU MELANJUTKAN PENDIDIKAN TINGGI DI ITB STIKOM BALI.
+                </p>
+                
+                <p class="text-xl leading-tight mb-4">
+                KARIER PROFESIONAL BELIAU DIMULAI DENGAN PEKERJAAN SEBAGAI SOPIR ANTAR-JEMPUT TAMU DI BANDARA, NAMUN SEIRING BERJALANNYA WAKTU, BELIAU MEMUTUSKAN UNTUK MENGELUTI DUNIA PENDIDIKAN. SAAT INI, KADEK ARIE WIRA KUSUMA BEKERJA SEBAGAI TENAGA PENGAJAR DI SMK TI BALI GLOBAL DENPASAR. BELIAU MENGAJAR MATA PELAJARAN DASAR-DASAR PENGEMBANGAN PERANGKAT LUNAK DAN GIM (DDPLG) UNTUK KELAS X RPL 3, SERTA PEMROGRAMAN WEB & PERANGKAT BERGERAK (PWPB) UNTUK KELAS XII RPL 1, XII RPL 2, DAN XII RPL 3. SELAIN ITU, BELIAU JUGA MENJABAT SEBAGAI PEMBINA PKL (PRAKTIK KERJA LAPANGAN), PEMBINA KEDUA DI EKSTRAKURIKULER GLOBALITI PODCAST, PETUGAS PIKET GURU, SERTA WALI KELAS X RPL 3.
+                </p>
+                
+                <p class="text-xl leading-tight">
+                MESKIPUN MEMILIKI PRESTASI YANG SIGNIFIKAN, BELIAU LEBIH MEMILIH UNTUK TIDAK MEMPUBLIKASIKAN PENCAPAIANNYA.
+                </p>
+            </div>
+            </div>
+            
+            <!-- Curved dotted line with arrow -->
+            <div class="h-24 relative">
+                <div class="curved-line"></div>
+                <div class="absolute right-0 bottom-0 top-1">
+                    <img src="/images/paper plane.webp" alt="Paper Plane" class="w-30 h-30">
+                </div>
+            </div>
+            
+            <!-- High School Life section -->
+            <div class="flex flex-col gap-4">
+            <div class="flex items-center gap-2 bg-[#F7E08D] w-1/2 rounded-lg mt-16">
+                <img src="/images/folder icon.webp" alt="Folder icon" class="ml-3 w-6 h-6 text-[#DF8522]">
+                <h3 class="text-3xl font-bold text-[#DF8522]">KEHIDUPAN SELAMA MASA SMK</h3>
+            </div>
+            
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="md:w-2/3">
+                <p class="text-2xl leading-tight mb-4">
+                    SELAMA MASA SMK, BELIAU MASUK KE KELAS RPL 1 SETELAH BERHASIL MELEWATI TES SELEKSI. KELAS INI MERUPAKAN KELAS UNGGULAN YANG HANYA DIISI OLEH SISWA-SISWA TERPILIH. DI KELAS TERSEBUT, SELAIN MEMPELAJARI DASAR PEMROGRAMAN, BELIAU JUGA BELAJAR CARA MENGEDIT FOTO DAN VIDEO, SERTA MENGENAL DUNIA KREATIF DAN INOVATIF. SELAIN ITU, BELIAU DIKENAL AKTIF BERPERAN DALAM BERBAGAI KEGIATAN KELAS, BAHKAN PERNAH MENJADI PEMERAN UTAMA DALAM FILM TUGAS KELAS. BELIAU JUGA MEMILIKI PERAN PENTING SEBAGAI "OPERATOR KELAS", YANG SERING MEMBAWA COLOKAN PANJANG (CUK ROLL) UNTUK MEMBANTU TEMAN-TEMANNYA YANG MEMBUTUHKAN DAYA UNTUK LAPTOP MEREKA.
+                </p>
+                </div>
+                
+                <div class="md:w-1/3 flex justify-end md:-mt-20">
+                <div class="bg-white p-2 shadow-md max-w-[350px]">
+                    <img src="/images/SMK Pak Ari.jpeg" alt="High School Photo" class="w-full">
+                    <div class="h-16 bg-gray-50"></div>
+                </div>
+                </div>
+            </div>
+            </div>
+            
+            <!-- Curved dotted line with arrow -->
+            <div class="h-24 relative">
+                <div class="curved-line transform -scale-x-100"></div>
+                <div class="absolute left-0 bottom-0 top-1">
+                    <img src="/images/paper plane.webp" alt="Paper Plane" class="scale-x-[-1] w-30 h-30">
+                </div>
+            </div>
+            
+            <!-- Decision to become a teacher section -->
+            <div class="flex flex-col gap-4">
+                <div class="flex items-center gap-4 bg-[#F0FE9A] justify-start rounded-lg mt-5 px-4 py-2 max-w-max ml-auto">
+                    <h3 class="text-3xl font-bold text-[#74AA03]">KEPUTUSAN MENJADI GURU</h3>
+                    <img src="/images/teacher.webp" alt="Teacher icon" class="w-6 h-6 text-lime-500">
+                </div>
+                
+                <div class="flex flex-col md:flex-row gap-24">
+                    <div class="md:w-1/3">
+                        <div class="bg-white p-2 shadow-md">
+                            <img src="/images/foto wisuda-min.jpg" alt="Formal Photo" class="w-full">
+                        </div>
+                    </div>
+                
+                    <div class="md:w-2/3"> <!-- Changed from md:w-1/2 to md:w-2/3 -->
+                        <p class="text-2xl leading-tight mt-10 text-right"> <!-- Removed mr-0 -->
+                            AWALNYA, KADEK ARIE WIRA KUSUMA TIDAK MEMILIKI NIAT LANGSUNG UNTUK MENJADI GURU. KEINGINAN UNTUK BERBAGI ILMU MUNCUL KARENA KEGIATAANNYA PADA DUNIA TEKNOLOGI, TERUTAMA DALAM BIDANG CODING DAN KOMPUTER. IA MERASA SENANG BISA MEMBANTU TEMAN-TEMANNYA DENGAN MASALAH TEKNIS, DAN DARI SITU IA MULAI TERTARIK UNTUK MENGAJAR. MESKIPUN SEMULA BERANGGAPAN BAHWA MENGAJAR BISA MENJADI BATU LONCATAN UNTUK PELUANG LAIN, IA JUSTRU SEMAKIN BETAH DAN MERASA BAHWA DUNIA PENDIDIKAN ADALAH TEMPAT YANG TEPAT UNTUKNYA.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Curved dotted line with arrow -->
+            <div class="h-24 relative">
+                <div class="curved-line"></div>
+                <div class="absolute right-0 bottom-0 top-1">
+                    <img src="/images/paper plane.webp" alt="Paper Plane" class="w-30 h-30">
+                </div>
+            </div>
+            
+            <!-- Final section with icons -->
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <div class="bg-white p-2 shadow-md">
+                    <img src="/images/podcast pak ari.jpeg" alt="Formal Photo" class=" h-72">
+                </div>
+                
+                <div class="md:w-2/4 px-8"> <!-- Added padding to this div -->
+                    <p class="text-xl leading-tight text-center mb-4">
+                        SERING BERJALANNYA WAKTU, BELIAU SEMAKIN MENIKMATI DUNIA MENGAJAR, TERUTAMA SAAT MELIHAT PERKEMBANGAN SISWANYA YANG AWALNYA TIDAK MEMAHAMI MATERI, KINI BISA MENGHASILKAN PROYEK-PROYEK KEREN. SELAIN ITU, KEPUTUSAN UNTUK MENJADI GURU JUGA DIDORONG OLEH KEINGINAN UNTUK BERTEMU KEMBALI DENGAN GURU-GURU LAMA YANG DULU SEMPAT DIKAGUMI, NAMUN KINI BISA MENJADI REKAN KERJA DAN TEMAN NGOBROL SANTAI. KADEK ARIE WIRA KUSUMA JUGA MENGANGGAP MENGAJAR SEBAGAI KESEMPATAN UNTUK MENGASAH KEMAMPUAN PUBLIC SPEAKING, AGAR MATERI YANG DIAJARKAN DAPAT LEBIH MENARIK DAN TIDAK MEMBOSANKAN BAGI SISWA.
+                    </p>
+                    
+                    <p class="text-xl leading-tight text-center">
+                        DENGAN DEDIKASI YANG TINGGI, BELIAU TERUS BERUSAHA MEMBERIKAN YANG TERBAIK DALAM MENGAJAR, SEKALIGUS MEMPERKAYA PENGALAMAN HIDUPNYA DI DUNIA PENDIDIKAN.
+                    </p>
+                </div>
+                
+                <div class="bg-white p-2 shadow-md">
+                    <img src="/images/Pak Ari.jpeg" alt="Formal Photo" class=" h-72">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <div class="static mt-3.5 mb-0 bottom-0 w-screen  py-3 text-center text-gray-600 text-sm font-bebas">
+        © KELOMPOK 2 | X RPL 2 | 2025
+    </div>
+</body>
+</html>

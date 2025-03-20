@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Apply Bebas Neue to all elements */
+      * {
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 0.5px;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'bebas': ['"Bebas Neue"', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+  </head>
+
+  <body class="min-h-screen bg-gray-200 flex flex-col items-center justify-center p-4 font-bebas">
+    <!-- Main content container - ENLARGED -->
+    <div class="w-full max-w-6xl bg-gray-100 rounded-3xl p-10 md:p-16 pt-6 md:pt-6 shadow-md relative min-h-[80vh]">
+      <!-- Header with centered navbar -->
+      <div class="flex justify-center mb-24">
+        <!-- Rounded navbar container -->
+        <div class="bg-white px-8 py-3 rounded-full shadow-sm flex items-center gap-2">
+          <!-- Sun icon to the left of the name -->
+          <img src="/images/sun-icon.webp" alt="Sun icon" class="w-6 h-6">
+          
+          <!-- Name in navbar -->
+          <div class="font-medium text-black opacity-60 mr-10 text-2xl md:text-2xl font-bebas hover:opacity-100 transition-opacity duration-300"><a href="https://www.instagram.com/ariewira_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">KADEK ARIE WIRA KUSUMA</a></div>
+          
+          <!-- Navigation links -->
+          <nav class="flex gap-8 text-xl md:text-2xl font-bebas">
+            <!-- <a href="#" class="font-bold text-black">BERANDA</a> -->
+            <a href="home.html" class="text-black opacity-60 hover:opacity-100 transition-opacity duration-300">BERANDA</a>
+            <a href="biodata.html" class="text-black opacity-60 hover:opacity-100 transition-opacity duration-300">BIODATA</a>
+            <a href="biografi.html" class="text-black opacity-60 hover:opacity-100 transition-opacity duration-300">BIOGRAFI</a>
+            <a href="tentang-kami.html" class="text-black opacity-60 hover:opacity-100 transition-opacity duration-300">TENTANG KAMI</a>
+          </nav>
+        </div>
+      </div>
+      
+      <!-- Main content -->
+      <div class="flex flex-col items-center justify-center text-center py-10">
+        <h2 class="text-amber-400 text-6xl font-bold mb-2">BIOGRAFI</h2>
+        <h1 class="text-5xl md:text-7xl font-black text-gray-900 mb-6">
+          KADEK ARIE WIRA KUSUMA
+        </h1>
+        <div class="w-40 h-1 bg-gray-300 mb-8"></div>
+        
+        <!-- Role badges with PNG icons -->
+        <div class="flex flex-wrap justify-center gap-4 mb-16">
+          <div class="bg-[#F0FE9A] text-[#74AA03] px-4 py-1 rounded-md flex items-center gap-2">
+            <img src="/images/teacher.webp" alt="Teacher icon" class="w-5 h-5">
+            <span class="font-medium">TEACHER</span>
+          </div>
+          <div class="bg-[#F7E08D] text-[#DF8522] px-4 py-1 rounded-md flex items-center gap-2">
+            <img src="/images/programmer.webp" alt="Programmer icon" class="w-5 h-5">
+            <span class="font-medium">PROGRAMMER</span>
+          </div>
+          <div class="bg-[#DBF0FD] text-[#5498E3] px-4 py-1 rounded-md flex items-center gap-2">
+            <img src="/images/podcast.webp" alt="Podcaster icon" class="w-5 h-5">
+            <span class="font-medium">PODCASTER</span>
+          </div>
+        </div>
+        
+        <!-- Technology icons -->
+        <div class="flex gap-4 justify-center">
+          <!-- HTML5 Icon -->
+          <img src="/images/html_icons_1.webp" alt="HTML5 logo" class="w-10 h-12">
+          
+          <!-- CSS3 Icon -->
+          <img src="/images/css_icon_1.webp" alt="CSS3 logo" class="w-10 h-12">
+          
+          <!-- JavaScript Icon -->
+          <img src="/images/javascript_icon_1.webp" alt="JavaScript logo" class="w-10 h-12">
+        </div>
+      </div>
+    </div>
+  
+    <!-- Footer with gray background -->
+    <div class="static mt-3.5 mb-0 bottom-0 w-screen  py-3 text-center text-gray-600 text-sm font-bebas">
+      © KELOMPOK 2 | X RPL 2 | 2025
+    </div>
+  </body>
+</html>
